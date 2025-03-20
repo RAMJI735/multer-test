@@ -8,7 +8,7 @@ const Image= require("./model/image")
 
 
 const mongodb=async()=>{
-await mongoose.connect("mongodb+srv://dipanshusrivastava735:deepanshu123@cluster0.j0x2swe.mongodb.net/multer-test");
+await mongoose.connect("YOUR_DBURL");
 console.log("db connected");
 }
 
